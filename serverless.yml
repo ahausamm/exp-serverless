@@ -47,6 +47,8 @@ defaults:
 functions:
   hello:
     handler: handler.hello
+    events:
+      - http: GET greet
 
 #    you can add any of the following events
 #    events:
